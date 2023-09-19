@@ -34,6 +34,17 @@ public class Program6 {
                 System.out.println("Product: " + average.getProduct());
                 System.out.println("Quotient: " + average.getQuotient());
             }
+
+            else {
+                System.out.print("Input Number: ");
+                average.setdata1(sc.nextInt());
+                System.out.print("Input Number: ");
+                average.setdata2(sc.nextInt());
+                System.out.print("Input Number: ");
+                average.setdata3(sc.nextInt());
+                average.setAverage();
+                System.out.println("Average: " + average.getAverage());
+            }
         }
 
         catch (InputMismatchException error) {
